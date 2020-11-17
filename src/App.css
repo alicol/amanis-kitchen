@@ -1,38 +1,139 @@
-.App {
+
+#background-color {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+#logo-header {
+  background-image: url("Assets/Logo.png");
+  background-size: contain;
+  height: 18vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+ background-position: center;
+ 
+}
+
+#navbar {
+  padding-bottom: 3vh;
+}
+
+
+
+#flexbox1 {
+  background-image: url("./Assets/macaroons.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: 'Economica', sans-serif;
+  text-shadow: 1.5px 1.5px gray;
+}
+
+#amani-headshot {
+  height: 50px;
+  width: 50px;
+}
+
+.component-header {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#welcome-text {
+  font-size: 8vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#intro-text {
+  font-size: 5vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#home-intro {
+  padding: 10vh;
+}
+
+#product-title {
+  
+  margin-bottom: 5vh;
+}
+
+.pink-text {
+  font-family: 'Economica', sans-serif;
+  color: #f977bc;
+  font-size: 5vh;
+}
+.white-text {
+  font-family: 'Economica', sans-serif;
+  color: whitesmoke;
+  font-size: 5vh;
+}
+.home-intro-description {
+  font-size: 3vh;
+  line-height: 5vh;
+  font-family: 'Quicksand', sans-serif;
+ 
+}
+
+.column-flexbox {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+#about-wrapper {
+  background-image: url("https://images.unsplash.com/photo-1549834146-0702b38f1bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+  height: auto;
+  width: 100vw;
+  /* background-size: cover; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  padding: 5vh;
+  
+  background-position-x: left; 
+}
+#product-wrapper {
+  background-image: url("https://images.unsplash.com/photo-1549834146-0702b38f1bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+  height: auto;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  padding: 5vh;
+
+  background-position-x: left; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p-text {
+  font-family: 'Quicksand', sans-serif;
 }
+
+.product-card {
+  margin-bottom: 3vh;
+ 
+}
+
+
+
+/* .no-margins {
+  background-position-x: left;
+} */
+/* #navbar {
+
+} */
+
