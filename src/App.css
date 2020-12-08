@@ -40,6 +40,25 @@
   text-shadow: 1.5px 1.5px gray;
 }
 
+#contact-background {
+  
+    background-image: url("./Assets/sprinkles.jpeg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
 #amani-headshot {
   height: 50px;
   width: 50px;
@@ -59,6 +78,7 @@
 
 #home-intro {
   padding: 10vh;
+  padding-bottom: 0;
 }
 
 #product-title {
@@ -76,6 +96,68 @@
   color: whitesmoke;
   font-size: 5vh;
 }
+
+.menu-text {
+  font-family: 'Quicksand', sans-serif;
+  color: black !important;
+  font-size: 3vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  transition: all .2s ease-in-out; 
+}
+
+.review-text {
+  font-family: 'Quicksand', sans-serif;
+  color: black !important;
+  font-size: 3vh;
+  text-align: center;
+}
+
+#reviews-title {
+  font-family: 'Economica', sans-serif;
+  color: #f977bc;
+  font-size: 5vh;
+  padding-top: 9vh;
+  text-align: center;
+}
+
+#contact-title {
+  font-family: 'Economica', sans-serif;
+  color: black;
+  font-size: 5vh;
+  padding-top: 4vh;
+  text-align: center;
+}
+
+#contact-box {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: rgba(245, 245, 245, .8);
+  border-radius: 10px;
+}
+
+.review-name {
+  font-family: 'Economica', sans-serif;
+  color: black;
+  font-size: 4vh;
+  text-align: right;
+  margin-right: 10vw;
+
+}
+
+.menu-text:hover {
+  transform: scale(1.06); 
+}
+
+.pink-text-center {
+  font-family: 'Economica', sans-serif;
+  color: #f977bc;
+  font-size: 8vh;
+  text-align: center;
+ 
+}
 .home-intro-description {
   font-size: 3vh;
   line-height: 5vh;
@@ -92,6 +174,10 @@
 
 }
 
+#review-carousel {
+  padding: 8vh;
+}
+
 #about-wrapper {
   background-image: url("https://images.unsplash.com/photo-1549834146-0702b38f1bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
   height: auto;
@@ -106,7 +192,7 @@
   background-position-x: left; 
 }
 #product-wrapper {
-  background-image: url("https://images.unsplash.com/photo-1549834146-0702b38f1bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1549834146-0702b38f1bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"); */
   height: auto;
   width: 100vw;
   background-size: cover;
@@ -119,6 +205,10 @@
   background-position-x: left; 
 }
 
+.contact-form {
+  padding: 5vh;
+}
+
 .p-text {
   font-family: 'Quicksand', sans-serif;
 }
@@ -126,6 +216,51 @@
 .product-card {
   margin-bottom: 3vh;
  
+}
+
+.modal-flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.carousel-image {
+  max-width: 100%;
+}
+
+.custom-btn {
+  color: white !important;
+  background-color: #f977bc !important;
+  outline-color: gray !important;
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.05); 
+  }
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
 
 
