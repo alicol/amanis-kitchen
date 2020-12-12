@@ -26,15 +26,15 @@ const CookieKits = (props) => {
          <div className="modal-flexbox">
            <div>
              
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis doloremque sed dolorum corporis. Minima, dolorum nostrum aliquam distinctio dolorem quaerat nulla quibusdam hic blanditiis suscipit ipsum? Expedita aut cum neque!</p>
+             <p>These seasonal cookie kits include 12 cookies, 3 bags of icing, and 2 kinds of sprinkles. Enjoy all of the fun that comes with decorating cookies, without the hassle and mess of making them! </p>
            </div>
            <div>
-             <h5>Flavors</h5>
+             <h5>Themes:</h5>
              <ul>
-               <li>Chocolate</li>
-               <li>Vanilla Bean</li>
-               <li>Fruity Pebbles</li>
-               <li>White Chocolate</li>
+               <li>Valentine's Day</li>
+               <li>Easter</li>
+               <li>Halloween</li>
+               <li>Christmas</li>
              </ul>
            </div>
            <div>
@@ -47,10 +47,7 @@ const CookieKits = (props) => {
       alt="First slide"
       class="carousel-image"
     />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
+
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -60,10 +57,6 @@ const CookieKits = (props) => {
       class="carousel-image"
     />
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -73,10 +66,6 @@ const CookieKits = (props) => {
       class="carousel-image"
     />
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
 

@@ -26,7 +26,7 @@ const Cakes = (props) => {
          <div className="modal-flexbox">
            <div>
              
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis doloremque sed dolorum corporis. Minima, dolorum nostrum aliquam distinctio dolorem quaerat nulla quibusdam hic blanditiis suscipit ipsum? Expedita aut cum neque!</p>
+             <p>Let me help make make your next event special! All of my cakes are made-to-order and designed just for you.</p>
            </div>
            <div>
              <h5>Cake Flavors</h5>
@@ -56,10 +56,6 @@ const Cakes = (props) => {
       alt="First slide"
       class="carousel-image"
     />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -69,10 +65,6 @@ const Cakes = (props) => {
       class="carousel-image"
     />
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -82,10 +74,6 @@ const Cakes = (props) => {
       class="carousel-image"
     />
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
 

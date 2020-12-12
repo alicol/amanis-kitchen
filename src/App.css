@@ -42,7 +42,7 @@
 
 #contact-background {
   
-    background-image: url("./Assets/sprinkles.jpeg");
+    background-image: url("./Assets/frosting.jpg");
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -76,9 +76,24 @@
   font-size: 5vw;
 }
 
-#home-intro {
+#link-flex {
+  display: flex;
+  align-items: center;
+}
+
+.sm-links {
+  margin-right: 15px;
+}
+
+.home-intro {
   padding: 10vh;
   padding-bottom: 0;
+}
+
+#intro-header-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #product-title {
@@ -235,6 +250,24 @@
   outline-color: gray !important;
 }
 
+.align-items-center {
+  display: flex;
+  justify-content: space-around;
+}
+
+#price-flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+.pricing-box {
+  padding: 8vh;
+}
+
 .grow { 
   transition: all .2s ease-in-out; 
   }
@@ -242,6 +275,8 @@
   .grow:hover { 
   transform: scale(1.05); 
   }
+
+  
 
 #myBtn {
   display: none; /* Hidden by default */

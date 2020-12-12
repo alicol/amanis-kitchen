@@ -24,15 +24,15 @@ const Cookies = (props) => {
            <div className="modal-flexbox">
              <div>
                
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis doloremque sed dolorum corporis. Minima, dolorum nostrum aliquam distinctio dolorem quaerat nulla quibusdam hic blanditiis suscipit ipsum? Expedita aut cum neque!</p>
+               <p>My soft sugar cookies taste just as good as they look! I will come up with a special design for your occasion or the season!</p>
              </div>
              <div>
                <h5>Flavors</h5>
                <ul>
-                 <li>Chocolate</li>
-                 <li>Vanilla Bean</li>
-                 <li>Fruity Pebbles</li>
-                 <li>White Chocolate</li>
+                 <li>Vanilla</li>
+                 <li>Cinnamon</li>
+                 <li>Maple</li>
+                 <li>Lemon</li>
                </ul>
              </div>
              <div>

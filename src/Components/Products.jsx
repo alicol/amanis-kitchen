@@ -6,12 +6,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
 import Carousel from 'react-bootstrap/Carousel';
-import cocoaImg from '../Assets/cocoabomb.jpg';
-import macImg from '../Assets/macaroon.jpg';
-import cakeImg from '../Assets/cake.jpg';
-import kitsImg from '../Assets/kits.jpg';
-import cookiesImg from '../Assets/cookies.jpg';
-import pieImg from '../Assets/pie.jpg';
+import cocoaImg from '../Assets/cocoaCover.png';
+import macImg from '../Assets/macCover.png';
+import cakeImg from '../Assets/cakeCover.png';
+import kitsImg from '../Assets/cookieKitCover.png';
+import cookiesImg from '../Assets/cookieCover.png';
+import pieImg from '../Assets/pieCover.png';
 import Macaroons from './ProductComps/Macaroons';
 import Cookies from './ProductComps/Cookies';
 import Cakes from './ProductComps/Cakes';
@@ -30,17 +30,16 @@ const Products = () => {
 
 
     return ( <div id="product-wrapper">
-        <h3 class="white-text" id="product-title">Products</h3>
+        <h3 class="pink-text" id="product-title" style={{padding: "5vh"}}>Menu</h3>
     <Container>
         <Row>
             <Col sm={12} md={4} className="product-card">
             <Card style={{ width: '18rem' }} className="grow">
   <Card.Img variant="top" src={macImg} />
   <Card.Body>
-    <Card.Title>French Macaroons</Card.Title>
+    <Card.Title>French Macarons</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+     Crisp & chewy meringues with creamy filling.
     </Card.Text>
     <Button className="custom-btn" variant="light" onClick={() => setMacaroonModal(true)}>Details...</Button>
   </Card.Body>
@@ -52,8 +51,7 @@ const Products = () => {
   <Card.Body>
     <Card.Title>Cakes</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Custom cakes created uniquely for you!
     </Card.Text>
     <Button className="custom-btn" variant="light" onClick={() => setCakeModal(true)}>Details...</Button>
   </Card.Body>
@@ -65,8 +63,7 @@ const Products = () => {
   <Card.Body>
     <Card.Title>Cookies</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Soft sugar cookies with delicate designs.
     </Card.Text>
     <Button className="custom-btn" variant="light" onClick={() => setCookieModal(true)}>Details...</Button>
   </Card.Body>
@@ -80,8 +77,7 @@ const Products = () => {
   <Card.Body>
     <Card.Title>Cookie Kits</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      All the fun of decorating cookies, without the work.
     </Card.Text>
     <Button className="custom-btn" variant="light" onClick={() => setCookiekitModal(true)}>Details...</Button>
   </Card.Body>
@@ -93,8 +89,7 @@ const Products = () => {
   <Card.Body>
     <Card.Title>Hot Cocoa Bombs</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      A trendy & delicious way to enjoy warm hot cocoa!
     </Card.Text>
     <Button className="custom-btn" variant="light" onClick={() => setCocoaModal(true)}>Details...</Button>
   </Card.Body>
@@ -106,8 +101,7 @@ const Products = () => {
   <Card.Body>
     <Card.Title>Pies</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Nothing better than a tasty, made-from-scratch pie.
     </Card.Text>
     <Button className="custom-btn" variant="light" onClick={() => setPieModal(true)}>Details...</Button>
   </Card.Body>

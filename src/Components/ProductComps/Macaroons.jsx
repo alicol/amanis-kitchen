@@ -26,10 +26,10 @@ const Macaroons = (props) => {
          <div className="modal-flexbox">
            <div>
              
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis doloremque sed dolorum corporis. Minima, dolorum nostrum aliquam distinctio dolorem quaerat nulla quibusdam hic blanditiis suscipit ipsum? Expedita aut cum neque!</p>
+             <p>Homemade, french macaroons with delicious ganache-based or buttercream fillings! These tasty confections are absolutely perfect for any gathering or occasion. And, they're gluten-free!</p>
            </div>
            <div>
-             <h5>Flavors</h5>
+             <h5>Flavors: </h5>
              <ul>
                <li>Chocolate</li>
                <li>Vanilla Bean</li>
@@ -47,10 +47,7 @@ const Macaroons = (props) => {
       alt="First slide"
       class="carousel-image"
     />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
+
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -60,10 +57,6 @@ const Macaroons = (props) => {
       class="carousel-image"
     />
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -72,11 +65,6 @@ const Macaroons = (props) => {
       alt="Third slide"
       class="carousel-image"
     />
-
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
 
